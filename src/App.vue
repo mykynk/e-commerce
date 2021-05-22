@@ -2,7 +2,7 @@
   <div id="app">
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg  ">
       <div class="container-fluid" style="justify-content: center; align-items: center" >
-        <a class="navbar-brand sec"  href="#" style="position: absolute; left: 20px" >Arif Ticaret</a   >
+        <a class="navbar-brand sec"  href="#" style="position: absolute; left: 20px" >Arif Tic</a   >
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
           <span class="navbar-toggler-icon"></span>
         </button>
