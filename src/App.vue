@@ -23,10 +23,11 @@
           </ul>
         </div>    
       </div>
-      <form class="d-flex ">
-        <input class="form-control me-2 arama " type="search" placeholder="Ara" aria-label="Ara" style="height:25px ">
-        <button class="btn btn-outline-dark btn arama" type="submit">Ara</button>
-        <button class="btnsepetim" type="submit">Sepetim</button>
+      <form class="d-flex" style="white-space: nowrap">
+        <input class="form-control arama  " type="search" placeholder="Ara" aria-label="Ara" style=" width: 300px; height:25px"> 
+        <button class="btn btn-outline-dark btn arama me-3 " type="submit">Ara</button> 
+        <button class="btn btn-outline-dark btn arama " type="submit" style="padding: 3px 25px">Giriş Yap/Üye Ol</button> 
+        <button class="btn btn-outline-dark btn arama " type="submit">Sepetim</button> 
 
       </form>
     </nav>
@@ -89,7 +90,7 @@ export default {
   display: inline-block;
   position: relative;
   padding-bottom: 3px;
-  left: 100px;
+  left: 220px;
 }
 .sec:after {
   content: "";
@@ -132,7 +133,7 @@ export default {
   display: inline-block;
   position: relative;
   padding-bottom: 3px;
-  right: 15px;
+  right: 10px;
  
 }
 .btn {
@@ -145,9 +146,7 @@ export default {
     color:black;
     line-height: 2px; 
 }
-.btnsepetim {
-  display: inline-block;
-  position: relative;
+.btngiris {
   background: #ffffff;
   background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
   background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
@@ -156,18 +155,23 @@ export default {
   background-image: linear-gradient(to bottom, #ffffff, #ffffff);
   -webkit-border-radius: 11;
   -moz-border-radius: 11;
-  border-radius: 7px;
+  border-radius: 11px;
+  font-family: Arial;
   color: #000000;
-  font-size: 11px;
-  padding: 3px 3px 4px 4px;
+  font-size: 12px;
+  padding: 10px 10px 10px 10px;
   border: solid #000000 2px;
   text-decoration: none;
-  right:10px
 }
 
-.btnsepetim:hover {
+.btngiris:hover {
   background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 </style>
