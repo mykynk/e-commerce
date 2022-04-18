@@ -2,7 +2,7 @@
   <div id="app">
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg  ">
       <div class="container-fluid" style="justify-content: center; align-items: center" >
-        <a class="navbar-brand sec"  href="#" style="position: absolute; left: 20px" >mamy ticaret</a   >
+        <a class="navbar-brand sec"  href="#" style="position: absolute; left: 20px" >Arif Ticaret</a   >
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,11 +23,10 @@
           </ul>
         </div>    
       </div>
-      <form class="d-flex" style="white-space: nowrap">
-        <input class="form-control arama  " type="search" placeholder="Ara" aria-label="Ara" style=" width: 300px; height:25px"> 
-        <button class="btn btn-outline-dark btn arama me-3 " type="submit">Ara</button> 
-        <button class="btn btn-outline-dark btn arama " type="submit" style="padding: 3px 25px">Giriş Yap/Üye Ol</button> 
-        <button class="btn btn-outline-dark btn arama " type="submit">Sepetim</button> 
+      <form class="d-flex ">
+        <input class="form-control me-2 arama " type="search" placeholder="Ara" aria-label="Ara" style="height:25px ">
+        <button class="btn btn-outline-dark btn arama" type="submit">Ara</button>
+        <button class="btnsepetim" type="submit">Sepetim</button>
 
       </form>
     </nav>
@@ -90,7 +89,7 @@ export default {
   display: inline-block;
   position: relative;
   padding-bottom: 3px;
-  left: 220px;
+  left: 100px;
 }
 .sec:after {
   content: "";
@@ -133,7 +132,7 @@ export default {
   display: inline-block;
   position: relative;
   padding-bottom: 3px;
-  right: 10px;
+  right: 15px;
  
 }
 .btn {
@@ -146,7 +145,9 @@ export default {
     color:black;
     line-height: 2px; 
 }
-.btngiris {
+.btnsepetim {
+  display: inline-block;
+  position: relative;
   background: #ffffff;
   background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
   background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
@@ -155,23 +156,18 @@ export default {
   background-image: linear-gradient(to bottom, #ffffff, #ffffff);
   -webkit-border-radius: 11;
   -moz-border-radius: 11;
-  border-radius: 11px;
-  font-family: Arial;
+  border-radius: 7px;
   color: #000000;
-  font-size: 12px;
-  padding: 10px 10px 10px 10px;
+  font-size: 11px;
+  padding: 3px 3px 4px 4px;
   border: solid #000000 2px;
   text-decoration: none;
+  right:10px
 }
 
-.btngiris:hover {
+.btnsepetim:hover {
   background: #000000;
-  background-image: -webkit-linear-gradient(top, #000000, #000000);
-  background-image: -moz-linear-gradient(top, #000000, #000000);
-  background-image: -ms-linear-gradient(top, #000000, #000000);
-  background-image: -o-linear-gradient(top, #000000, #000000);
-  background-image: linear-gradient(to bottom, #000000, #000000);
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 </style>
